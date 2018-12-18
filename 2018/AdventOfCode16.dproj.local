@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018.12.17 21:04:40.885,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16.dproj=C:\Users\gabr\Documents\Embarcadero\Studio\Projects\Project166.dproj</Transaction>
+    <Transaction>2018.12.17 21:15:22.223,=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>2018.12.17 21:15:51.900,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16partA.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>2018.12.17 21:16:05.168,=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>2018.12.17 21:16:23.505,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16partB.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>2018.12.17 21:16:44.425,=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>2018.12.17 21:16:57.384,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16test.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>2018.12.17 21:43:44.173,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16samples.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16partA.txt</Transaction>
+    <Transaction>2018.12.17 21:43:56.281,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16code.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode16partB.txt</Transaction>
+  </Transactions>
+</BorlandProject>

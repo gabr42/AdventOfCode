@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.089,=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.099,=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.826,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode6.dproj=C:\Users\gabr\Documents\Embarcadero\Studio\Projects\Project161.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.187,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode6.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.828,H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\AdventOfCode6test.txt=H:\RAZVOJ\GpDelphiCode\AdventOfCode\2018\New1.txt</Transaction>
+  </Transactions>
+</BorlandProject>
