@@ -21,12 +21,13 @@ type
   strict private type
     TArmy = (arGoblins, arElves);
     TCompany = class
-      Location: TPoint;
-      Army    : TArmy;
-      HitPoints: integer;
+      Location    : TPoint;
+      Army        : TArmy;
+      HitPoints   : integer;
+      AttackPoints: integer;
     end;
     TCell = record
-      Company: TCompany;
+      Company : TCompany;
       CellType: AnsiChar;
       PrevPath: TPoint;
     end;
@@ -50,9 +51,11 @@ type
     procedure BeforeDestruction; override;
     procedure Dump;
     function HasEnded: boolean;
-    procedure Load(const fileName: string);
+    procedure Load(const fileName: string; elvesAttackPower: integer);
     function RemainingHitPoints: integer;
     procedure Turn(var interrupted: boolean);
+    property NumGoblins: integer read FNumGoblins;
+    property NumElves: integer read FNumElves;
     property Size: TPoint read FSize write FSize;
   end;
 
@@ -156,7 +159,7 @@ begin
   for i := 1 to High(enemies) do
     if FLayout[enemies[i].Y, enemies[i].X].Company.HitPoints < chosen.HitPoints then
       chosen := FLayout[enemies[i].Y, enemies[i].X].Company;
-  chosen.HitPoints := chosen.HitPoints - 3;
+  chosen.HitPoints := chosen.HitPoints - company.AttackPoints;
   if chosen.HitPoints <= 0 then
     Die(chosen);
 end;
@@ -248,7 +251,7 @@ begin
   Result := Check(-1, 0) or Check(0, -1) or Check(0, 1) or Check(1, 0);
 end;
 
-procedure TBattleground.Load(const fileName: string);
+procedure TBattleground.Load(const fileName: string; elvesAttackPower: integer);
 var
   company: TCompany;
   i: integer;
@@ -272,10 +275,12 @@ begin
           company.Location := Point(i, FSize.Y);
           if s[i] = 'E' then begin
             company.Army := arElves;
+            company.AttackPoints := elvesAttackPower;
             Inc(FNumElves);
           end
           else begin
             company.Army := arGoblins;
+            company.AttackPoints := 3;
             Inc(FNumGoblins);
           end;
           company.HitPoints := 200;
@@ -342,16 +347,20 @@ end;
 
 { main }
 
-function PartA(const fileName: string; animate: boolean = false): integer;
+function RunBattle(const fileName: string; animate: boolean;
+  elvesAttackPower: integer; stopIfElfDies: boolean; var elvesDied: boolean): integer;
 var
   battle: TBattleground;
   interrupted: boolean;
   step: integer;
   newPos: TCoord;
+  numElves: integer;
 begin
+  elvesDied := false;
   battle := TBattleground.Create;
   try
-    battle.Load(fileName);
+    battle.Load(fileName, elvesAttackPower);
+    numElves := battle.NumElves;
     if animate then begin
       battle.Dump;
       Readln;
@@ -367,20 +376,72 @@ begin
         Writeln(step);
         battle.Dump;
       end;
+      if stopIfElfDies and (numElves <> battle.NumElves) then begin
+        elvesDied := true;
+        interrupted := true;
+      end;
     until interrupted;
     Result := (step - 1) * battle.RemainingHitPoints;
   finally FreeAndNil(battle); end;
 end;
 
+function PartA(const fileName: string; animate: boolean = false): integer;
+var
+  elvesDied: boolean;
+begin
+  Result := RunBattle(fileName, false {animate}, 3, false, elvesDied);
+end;
+
+function PartB(const fileName: string; animate: boolean = false): integer;
+var
+  elvesDied: boolean;
+  mid: integer;
+  minElfAttack: integer;
+  maxElfAttack: integer;
+begin
+  minElfAttack := 4;
+  Result := RunBattle(fileName, false, minElfAttack, true, elvesDied);
+  if not elvesDied then
+    Exit;
+
+  repeat
+    maxElfAttack := minElfAttack + 10;
+    Result := RunBattle(fileName, false, maxElfAttack, true, elvesDied);
+    if elvesDied then
+      minElfAttack := maxElfAttack
+    else
+      break; //repeat
+  until false;
+
+  while (minElfAttack + 1) < maxElfAttack do begin
+    mid := (maxElfAttack + minElfAttack) div 2;
+    Result := RunBattle(fileName, false, mid, true, elvesDied);
+    if elvesDied then
+      minElfAttack := mid
+    else
+      maxElfAttack := mid;
+  end;
+
+  Result := RunBattle(fileName, false {animate}, minElfAttack + 1, true, elvesDied);
+  Assert(not elvesDied);
+end;
+
 begin
   try
     Assert(PartA('..\..\AdventOfCode15test1.txt') = 27730, 'PartA(test1) <> 27730');
-    Assert(PartA('..\..\AdventOfCode15test2.txt') = 36334, 'PartA(test1) <> 36334');
-    Assert(PartA('..\..\AdventOfCode15test3.txt') = 39514, 'PartA(test1) <> 39514');
-    Assert(PartA('..\..\AdventOfCode15test4.txt') = 27755, 'PartA(test1) <> 27755');
-    Assert(PartA('..\..\AdventOfCode15test5.txt') = 28944, 'PartA(test1) <> 28944');
-    Assert(PartA('..\..\AdventOfCode15test6.txt') = 18740, 'PartA(test1) <> 18740');
+    Assert(PartA('..\..\AdventOfCode15test2.txt') = 36334, 'PartA(test2) <> 36334');
+    Assert(PartA('..\..\AdventOfCode15test3.txt') = 39514, 'PartA(test3) <> 39514');
+    Assert(PartA('..\..\AdventOfCode15test4.txt') = 27755, 'PartA(test4) <> 27755');
+    Assert(PartA('..\..\AdventOfCode15test5.txt') = 28944, 'PartA(test5) <> 28944');
+    Assert(PartA('..\..\AdventOfCode15test6.txt') = 18740, 'PartA(test6) <> 18740');
     Writeln('PartA: ', PartA('..\..\AdventOfCode15.txt', true));
+
+    Assert(PartB('..\..\AdventOfCode15test1.txt') =  4988, 'PartB(test1) <> 4988');
+    Assert(PartB('..\..\AdventOfCode15test3.txt') = 31284, 'PartB(test3) <> 31284');
+    Assert(PartB('..\..\AdventOfCode15test4.txt') =  3478, 'PartB(test4) <> 3478');
+    Assert(PartB('..\..\AdventOfCode15test5.txt') =  6474, 'PartB(test5) <> 6474');
+    Assert(PartB('..\..\AdventOfCode15test6.txt') =  1140, 'PartB(test6) <> 1140');
+    Writeln('PartB: ', PartB('..\..\AdventOfCode15.txt', true));
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
