@@ -139,7 +139,7 @@ begin
     reader := TStreamReader.Create(fileName);
     try
       cpu.IPRegister := reader.ReadLine.Split([' '])[1].ToInteger;
-      while not reader.EndOfStream do 
+      while not reader.EndOfStream do
         cpu.AddProgram(reader.ReadLine.Split([' ']));
     finally FreeAndNil(reader); end;
     cpu.Run;
@@ -147,31 +147,50 @@ begin
   finally FreeAndNil(cpu); end;
 end;
 
-function PartB(const fileName: string): integer;
+function PartB(initialR0: integer): integer;
 var
-  cpu: TCPU;
-  reader: TStreamReader;
+  a,b,c,d,e: integer;
 begin
-  cpu := TCPU.Create;
-  try
-    reader := TStreamReader.Create(fileName);
-    try
-      cpu.IPRegister := reader.ReadLine.Split([' '])[1].ToInteger;
-      while not reader.EndOfStream do 
-        cpu.AddProgram(reader.ReadLine.Split([' ']));
-    finally FreeAndNil(reader); end;
-    cpu.Register[0] := 1;
-    cpu.Run;
-    Result := cpu.Register[0];
-  finally FreeAndNil(cpu); end;
+  // disassembled and reformatted code; see AdventOfCode19.xlsx
+
+  a := initialR0; b := 0; c := 0; d := 0; e := 0;
+
+  c := 1030;
+
+  if a = 1 then begin
+    c := c + 10550400;
+    a := 0;
+  end;
+
+//  e := 1;
+//  repeat
+//    d := 1;
+//    repeat
+//      if d * e = c then
+//        a := a + e;
+//      d := d + 1;
+//    until d > c;
+//    e := e + 1;
+//  until e > c;
+
+  // optimized commented-out part
+  for e := 1 to Trunc(Sqrt(c)) do
+    if (c mod e) = 0 then begin
+      Inc(a, e);
+      if e*e < c then
+        Inc(a, c div e);
+    end;
+
+  Result := a;
 end;
 
 begin
   try
-    Assert(PartA('..\..\AdventOfCode19test.txt') = 6, 'PartA(test) <> 6');
-    Writeln('PartA: ', PartA('..\..\AdventOfCode19.txt'));
+//    Assert(PartA('..\..\AdventOfCode19test.txt') = 6, 'PartA(test) <> 6');
+//    Writeln('PartA: ', PartA('..\..\AdventOfCode19.txt'));
 
-    Writeln('PartB: ', PartB('..\..\AdventOfCode19.txt'));
+    Assert(PartB(0) = 1872, 'PartB(test) <> 1872');
+    Writeln('PartB: ', PartB(1));
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
