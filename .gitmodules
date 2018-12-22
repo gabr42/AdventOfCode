@@ -1,0 +1,3 @@
+[submodule "DGPQueue"]
+	path = DGPQueue
+	url = https://github.com/lordcrc/DGPQueue.git
