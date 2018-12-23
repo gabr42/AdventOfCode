@@ -8,6 +8,7 @@ uses
   System.Types,
   System.SysUtils,
   System.Math,
+  System.Generics.Defaults,
   System.Generics.Collections,
   PriorityQueues in '..\DGPQueue\Source\PriorityQueues.pas',
   PriorityQueues.Detail in '..\DGPQueue\Source\PriorityQueues.Detail.pas';
@@ -166,14 +167,25 @@ begin
 
     // Dijkstra
 
+    Result := MaxInt;
     cost := TDictionary<TNode,integer>.Create;
     try
-      pq := PriorityQueue<TMove>.Create;
+      pq := PriorityQueue<TMove>.Create(
+              TComparer<TMove>.Default,
+              TComparer<TMove>.Construct(
+                function (const left, right: TMove): integer
+                begin
+                  Result := CompareValue(left.Cost, right.Cost);
+                end));
+
       pq.Enqueue(TMove.Create(0, Point(0, 0), 1));
       cost.Add(TNode.Create(Point(0, 0), 1), 0);
 
       while pq.Count > 0 do begin
         move := pq.Dequeue;
+
+        if move.Cost > Result then // prune the rest, the results cannot get better
+          Exit;
 
         for move2 in Neighbours(cave, bounds, move.Location, move.Tool) do begin
           alt := move.Cost + move2.Cost;
@@ -185,17 +197,14 @@ begin
           if alt < best then begin
             cost.AddOrSetValue(node2, alt);
             pq.Enqueue(TMove.Create(alt, move2.Location, move2.Tool));
+            if (move2.Tool = 1) and (move2.Location = target) then
+              Result := alt;
           end;
         end;
       end;
 
-      Result := cost[TNode.Create(target, 1)];
-    finally
-      FreeAndNil(cost);
-    end;
-  finally
-    FreeAndNil(cave);
-  end;
+    finally FreeAndNil(cost); end;
+  finally FreeAndNil(cave); end;
 end;
 
 begin
