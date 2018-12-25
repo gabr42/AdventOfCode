@@ -95,15 +95,14 @@ begin
   for i := 0 to FArmy.Count - 1 do begin
     if FArmy[i].Target = nil then
       continue; // for
+
     attack := Min(FArmy[i].Target.Count, AttackDamage(FArmy[i], FArmy[i].Target) div FArmy[i].Target.HitPoints);
-//Writeln(IfThen(FArmy[i].IsDefender, 'D', 'A'), ' ', attack);
     FArmy[i].Target.Count := FArmy[i].Target.Count - attack;
   end;
 
   for i := FArmy.Count - 1 downto 0 do
     if FArmy[i].Count <= 0 then
       FArmy.Delete(i);
-//Writeln;
 end;
 
 function TBattle.HasBothSides: boolean;
@@ -249,7 +248,8 @@ begin
       if (i = j) or (FArmy[i].IsDefender = FArmy[j].IsDefender) or selected[j] then
         continue; //for j
       dam := AttackDamage(FArmy[i], FArmy[j]);
-      if (dam > bestDam)
+      if (dam > 0)
+         and (dam > bestDam)
          or ((dam = bestDam)
              and ((FArmy[j].EffectivePower > FArmy[bestIdx].EffectivePower)
                   or ((FArmy[j].EffectivePower = FArmy[bestIdx].EffectivePower)
@@ -310,22 +310,46 @@ var
   defenderWins, attackerWins: boolean;
 begin
   low := 0;
+  RunBattle(fileName, low, Result, defenderWins, attackerWins);
+  if defenderWins then
+    Exit;
+
+  // Let's hope that the transition from "attacker wins" to "defender wins"
+  // is smooth and stable. Otherwise the whole bisecting idea is invalid.
+
+  high := 10;
   repeat
-    RunBattle(fileName, low, Result, defenderWins, attackerWins);
-    Inc(low);
-  until defenderWins;
+    RunBattle(fileName, high, Result, defenderWins, attackerWins);
+    if defenderWins then
+      break;
+    low := high;
+    high := high * 10;
+  until false;
+
+  while (high - low) > 1 do begin
+    mid := (low + high) div 2;
+    RunBattle(fileName, mid, Result, defenderWins, attackerWins);
+    if defenderWins then
+      high := mid
+    else // stalemate is treated as a loss
+      low := mid;
+  end;
+
+  if low = mid then
+    RunBattle(fileName, high, Result, defenderWins, attackerWins);
+  Assert(defenderWins);
 end;
 
 begin
   try
-    Assert(PartA('..\..\AdventOfCode24test.txt') = 5216, 'PartA(test) <> 5216');
-    Writeln('PartA: ', PartA('..\..\AdventOfCode24.txt'));
-
-    Assert(PartB('..\..\AdventOfCode24test.txt') = 51, 'PartB(test) <> 51');
+//    Assert(PartA('..\..\AdventOfCode24test.txt') = 5216, 'PartA(test) <> 5216');
+//    Writeln('PartA: ', PartA('..\..\AdventOfCode24.txt'));
+//
+//    Assert(PartB('..\..\AdventOfCode24test.txt') = 51, 'PartB(test) <> 51');
     Writeln('PartB: ', PartB('..\..\AdventOfCode24.txt'));
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
   end;
-  Write('> '); Readln;
+//  Write('> '); Readln;
 end.
