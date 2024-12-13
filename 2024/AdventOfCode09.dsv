@@ -1,0 +1,21 @@
+﻿[ClosedView_SDpcUkFaVk9KXEFkdmVudE9mQ29kZVwyMDI0XEFkdmVudE9mQ29kZTA5LmRwcg==]
+Module=H:\RAZVOJ\AdventOfCode\2024\AdventOfCode09.dpr
+CursorX=1
+CursorY=96
+TopLine=90
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=H:\RAZVOJ\AdventOfCode\2024\AdventOfCode09.dpr
+
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5MaXN0cy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Lists.pas
+CursorX=1
+CursorY=553
+TopLine=536
+LeftCol=1
+Elisions={{53,2},{73,13},{'Nested Types'}}{{93,2},{103,13},{'Property Accessors'}}{{121,2},{123,13},{'Implements IInterface'}}{{125,2},{136,13},{'Implements IEnumerable<T>'}}{{138,2},{153,13},{'Implements ICollection<T>'}}{{155,2},{191,13},{'Implements IList<T>'}}{{206,2},{208,13},{'Implements IEnumerable<T>'}}{{210,2},{213,13},{'Implements ICollection<T>'}}{{215,2},{237,13},{'Implements IList<T>'}}{{243,2},{256,13},{'Nested Types'}}{{260,2},{270,13},{'Property Accessors'}}{{279,2},{283,13},{'Implements IEnumerable<T>'}}{{285,2},{290,13},{'Implements ICollections<T>'}}{{292,2},{328,13},{'Implements IList<T>'}}{{337,2},{341,13},{'Property Accessors'}}{{346,2},{348,13},{'Implements IEnumerable<T>'}}{{350,2},{356,13},{'Implements IReadOnlyList<T>'}}{{1682,0},{1703,11},{'TAbstractArrayList<T>.TEnumerator'}}{{1706,0},{1713,11},{'TList<T>'}}{{1716,0},{1895,11},{'TSortedList<T>'}}{{1898,0},{2319,11},{'TCollectionList<T>'}}{{2322,0},{2352,11},{'TCollectionList<T>.TEnumerator'}}{{2355,0},{2426,11},{'TAnonymousReadOnlyList<T>'}}{{2429,0},{2449,11},{'TFoldedList<T>'}}{{2452,0},{2472,11},{'TFoldedSortedList<T>'}}{{2475,0},{2528,11},{'TObservableObjectList'}}{{2531,0},{2587,11},{'TObservableInterfaceList'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Lists.pas
+
