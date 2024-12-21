@@ -1,15 +1,15 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <ProjectGuid>{8C767A62-B61C-4C03-9A32-55235FB5B433}</ProjectGuid>
+        <ProjectGuid>{E363655F-3F94-40BF-9FAC-808EA338142B}</ProjectGuid>
         <ProjectVersion>20.2</ProjectVersion>
         <FrameworkType>None</FrameworkType>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
-        <ProjectName Condition="'$(ProjectName)'==''">AdventOfCode19</ProjectName>
+        <ProjectName Condition="'$(ProjectName)'==''">AdventOfCode21</ProjectName>
         <TargetedPlatforms>1</TargetedPlatforms>
         <AppType>Console</AppType>
-        <MainSource>AdventOfCode19.dpr</MainSource>
+        <MainSource>AdventOfCode21.dpr</MainSource>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
         <Base>true</Base>
@@ -54,7 +54,7 @@
         <DCC_F>false</DCC_F>
         <DCC_K>false</DCC_K>
         <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
-        <SanitizedProjectName>AdventOfCode19</SanitizedProjectName>
+        <SanitizedProjectName>AdventOfCode21</SanitizedProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Linux64)'!=''">
         <DCC_UsePackage>DataSnapServer;fmx;DbxCommonDriver;bindengine;FireDACCommonODBC;emsclient;dxComnRS29;IndyProtocols;siInternetTranslator_12r;dbxcds;FireDACSqliteDriver;DbxClientDriver;soapmidas;dbexpress;Python;inet;CustomIPTransport;FireDACMSSQLDriver;IndySystem;dxGDIPlusRS29;FireDACCommon;DataSnapServerMidas;FireDACODBCDriver;emsserverresource;rtl;FireDACMySQLDriver;DataSnapFireDAC;FireDAC;xmlrtl;P4DEnvironment;dsnap;FireDACDb2Driver;DataSnapNativeClient;DatasnapConnectorsFreePascal;sgcWebSocketsD12;emshosting;FireDACCommonDriver;emsedge;inetdb;FireDACASADriver;FireDACInfxDriver;P4DPyPackage;DataSnapCommon;dbrtl;FireDACOracleDriver;DataSnapIndy10ServerTransport;DataSnapConnectors;FireDACMongoDBDriver;FireDACTDataDriver;bindcomp;inetstn;IndyCore;RESTBackendComponents;TsiLang_12r;FireDACADSDriver;RESTComponents;dsnapxml;DataSnapClient;dxCoreRS29;emsclientfiredac;FireDACPgDriver;CloudService;soaprtl;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
@@ -116,7 +116,7 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">AdventOfCode19.dpr</Source>
+                    <Source Name="MainSource">AdventOfCode21.dpr</Source>
                 </Source>
             </Delphi.Personality>
             <Deployment Version="5">
@@ -135,9 +135,9 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Win32\Debug\AdventOfCode19.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\AdventOfCode21.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
-                        <RemoteName>AdventOfCode19.exe</RemoteName>
+                        <RemoteName>AdventOfCode21.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

@@ -90,29 +90,19 @@ begin
       for var d := 1 to 4 do
         GridCost[x, y, d] := 0;
 
-  var candidates := TCollections.CreateSortedTreeMultiMap<integer, TCandidate>(
-                      TComparer<integer>.Construct(
-                        function (const left, right: integer): integer
-                        begin
-                          Result := CompareValue(left, right);
-                        end));
+  var candidates := TCollections.CreateSortedMultiMap<integer, TCandidate>;
   var cand := TCandidate.Create(StartPos, StartDirection, '', false);
   var cost := 0;
   var minCost := 0;
   var minPaths := TCollections.CreateList<string>;
   candidates.Add(cost, cand);
 
-//  var idx := 0;
   repeat
-//    idx := (idx + 1) mod 100;
-//    if idx = 0 then
-//      Writeln(candidates.Count);
     var kv := candidates.First;
     cost := kv.Key;
     if (minCost > 0) and (cost > (minCost + 1)) then
       break; // repeat
     cand := kv.Value;
-    candidates.TryGetValues(cost, values);
     candidates.Remove(cost, cand);
     if (cand.Position + cand.Direction) = EndPos then begin
       minPaths.Add(cand.Path + moveChar[cand.Direction]);

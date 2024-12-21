@@ -1,0 +1,150 @@
+﻿[ClosedView_SDpcUkFaVk9KXEFkdmVudE9mQ29kZVwyMDI0XEFkdmVudE9mQ29kZTIxXzIuZHBy]
+Module=H:\RAZVOJ\AdventOfCode\2024\AdventOfCode21_2.dpr
+CursorX=1
+CursorY=160
+TopLine=144
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=H:\RAZVOJ\AdventOfCode\2024\AdventOfCode21_2.dpr
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=38
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXFNwcmluZy5Db21wYXJlcnMucGFz]
+Module=x:\common\Spring4D\Source\Base\Spring.Comparers.pas
+CursorX=29
+CursorY=46
+TopLine=33
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Spring.Comparers.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=38
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=38
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uR2VuZXJpY3MuRGVmYXVsdHMucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Defaults.pas
+CursorX=1
+CursorY=1995
+TopLine=1980
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Defaults.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5EaWN0aW9uYXJpZXMucGFz]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Dictionaries.pas
+CursorX=40
+CursorY=928
+TopLine=914
+LeftCol=1
+Elisions={{55,2},{79,13},{'Nested Types'}}{{85,2},{96,13},{'Property Accessors'}}{{107,2},{113,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{115,2},{117,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{119,2},{129,13},{'Implements IMap<TKey, TValue>'}}{{131,2},{142,13},{'Implements IDictionary<TKey, TValue>'}}{{144,2},{147,13},{'Implements IOrderedDictionary<TKey, TValue>'}}{{164,2},{319,13},{'Nested Types'}}{{182,4},{197,15},{'Property Accessors'}}{{201,4},{204,15},{'Implements IInterface'}}{{206,4},{213,15},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{215,4},{220,15},{'Implements ICollection<TPair<TKey, TValue>>'}}{{222,4},{235,15},{'Implements IMap<TValue, TKey>'}}{{237,4},{249,15},{'Implements IDictionary<TValue, TKey>'}}{{276,4},{279,15},{'Property Accessors'}}{{283,4},{286,15},{'Implements IInterface'}}{{288,4},{293,15},{'Implements IEnumerable<TKey>'}}{{300,4},{303,15},{'Property Accessors'}}{{307,4},{310,15},{'Implements IInterface'}}{{312,4},{317,15},{'Implements IEnumerable<TValue>'}}{{333,2},{344,13},{'Property Accessors'}}{{376,2},{382,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{384,2},{386,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{388,2},{398,13},{'Implements IMap<TKey, TValue>'}}{{400,2},{414,13},{'Implements IDictionary<TKey, TValue>'}}{{422,2},{450,13},{'Nested Types'}}{{459,2},{469,13},{'Property Accessors'}}{{478,2},{483,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{485,2},{487,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{489,2},{500,13},{'Implements IMap<TKey, TValue>'}}{{502,2},{516,13},{'Implements IDictionary<TKey, TValue>'}}{{1102,0},{1113,11},{'TDictionary<TKey, TValue>.TEnumerator'}}{{1116,0},{1912,11},{'TBidiDictionary<TKey, TValue>'}}{{1915,0},{2281,11},{'TBidiDictionary<TKey, TValue>.TInverse'}}{{2284,0},{2340,11},{'TBidiDictionary<TKey, TValue>.TEnumerator'}}{{2343,0},{2423,11},{'TBidiDictionary<TKey, TValue>.TKeyCollection'}}{{2426,0},{2506,11},{'TBidiDictionary<TKey, TValue>.TValueCollection'}}{{2509,0},{3024,11},{'TSortedDictionary<TKey, TValue>'}}{{3027,0},{3038,11},{'TSortedDictionary<TKey, TValue>.TEnumerator'}}{{3041,0},{3078,11},{'TFoldedDictionary<TKey, TValue>'}}{{3081,0},{3117,11},{'TFoldedBidiDictionary<TKey, TValue>'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Dictionaries.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=40
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5EaWN0aW9uYXJpZXMucGFz]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Dictionaries.pas
+CursorX=48
+CursorY=922
+TopLine=914
+LeftCol=1
+Elisions={{55,2},{79,13},{'Nested Types'}}{{85,2},{96,13},{'Property Accessors'}}{{107,2},{113,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{115,2},{117,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{119,2},{129,13},{'Implements IMap<TKey, TValue>'}}{{131,2},{142,13},{'Implements IDictionary<TKey, TValue>'}}{{144,2},{147,13},{'Implements IOrderedDictionary<TKey, TValue>'}}{{164,2},{319,13},{'Nested Types'}}{{182,4},{197,15},{'Property Accessors'}}{{201,4},{204,15},{'Implements IInterface'}}{{206,4},{213,15},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{215,4},{220,15},{'Implements ICollection<TPair<TKey, TValue>>'}}{{222,4},{235,15},{'Implements IMap<TValue, TKey>'}}{{237,4},{249,15},{'Implements IDictionary<TValue, TKey>'}}{{276,4},{279,15},{'Property Accessors'}}{{283,4},{286,15},{'Implements IInterface'}}{{288,4},{293,15},{'Implements IEnumerable<TKey>'}}{{300,4},{303,15},{'Property Accessors'}}{{307,4},{310,15},{'Implements IInterface'}}{{312,4},{317,15},{'Implements IEnumerable<TValue>'}}{{333,2},{344,13},{'Property Accessors'}}{{376,2},{382,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{384,2},{386,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{388,2},{398,13},{'Implements IMap<TKey, TValue>'}}{{400,2},{414,13},{'Implements IDictionary<TKey, TValue>'}}{{422,2},{450,13},{'Nested Types'}}{{459,2},{469,13},{'Property Accessors'}}{{478,2},{483,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{485,2},{487,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{489,2},{500,13},{'Implements IMap<TKey, TValue>'}}{{502,2},{516,13},{'Implements IDictionary<TKey, TValue>'}}{{1102,0},{1113,11},{'TDictionary<TKey, TValue>.TEnumerator'}}{{1116,0},{1912,11},{'TBidiDictionary<TKey, TValue>'}}{{1915,0},{2281,11},{'TBidiDictionary<TKey, TValue>.TInverse'}}{{2284,0},{2340,11},{'TBidiDictionary<TKey, TValue>.TEnumerator'}}{{2343,0},{2423,11},{'TBidiDictionary<TKey, TValue>.TKeyCollection'}}{{2426,0},{2506,11},{'TBidiDictionary<TKey, TValue>.TValueCollection'}}{{2509,0},{3024,11},{'TSortedDictionary<TKey, TValue>'}}{{3027,0},{3038,11},{'TSortedDictionary<TKey, TValue>.TEnumerator'}}{{3041,0},{3078,11},{'TFoldedDictionary<TKey, TValue>'}}{{3081,0},{3117,11},{'TFoldedBidiDictionary<TKey, TValue>'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Dictionaries.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5EaWN0aW9uYXJpZXMucGFz]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Dictionaries.pas
+CursorX=48
+CursorY=922
+TopLine=914
+LeftCol=1
+Elisions={{55,2},{79,13},{'Nested Types'}}{{85,2},{96,13},{'Property Accessors'}}{{107,2},{113,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{115,2},{117,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{119,2},{129,13},{'Implements IMap<TKey, TValue>'}}{{131,2},{142,13},{'Implements IDictionary<TKey, TValue>'}}{{144,2},{147,13},{'Implements IOrderedDictionary<TKey, TValue>'}}{{164,2},{319,13},{'Nested Types'}}{{182,4},{197,15},{'Property Accessors'}}{{201,4},{204,15},{'Implements IInterface'}}{{206,4},{213,15},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{215,4},{220,15},{'Implements ICollection<TPair<TKey, TValue>>'}}{{222,4},{235,15},{'Implements IMap<TValue, TKey>'}}{{237,4},{249,15},{'Implements IDictionary<TValue, TKey>'}}{{276,4},{279,15},{'Property Accessors'}}{{283,4},{286,15},{'Implements IInterface'}}{{288,4},{293,15},{'Implements IEnumerable<TKey>'}}{{300,4},{303,15},{'Property Accessors'}}{{307,4},{310,15},{'Implements IInterface'}}{{312,4},{317,15},{'Implements IEnumerable<TValue>'}}{{333,2},{344,13},{'Property Accessors'}}{{376,2},{382,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{384,2},{386,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{388,2},{398,13},{'Implements IMap<TKey, TValue>'}}{{400,2},{414,13},{'Implements IDictionary<TKey, TValue>'}}{{422,2},{450,13},{'Nested Types'}}{{459,2},{469,13},{'Property Accessors'}}{{478,2},{483,13},{'Implements IEnumerable<TPair<TKey, TValue>>'}}{{485,2},{487,13},{'Implements ICollection<TPair<TKey, TValue>>'}}{{489,2},{500,13},{'Implements IMap<TKey, TValue>'}}{{502,2},{516,13},{'Implements IDictionary<TKey, TValue>'}}{{1102,0},{1113,11},{'TDictionary<TKey, TValue>.TEnumerator'}}{{1116,0},{1912,11},{'TBidiDictionary<TKey, TValue>'}}{{1915,0},{2281,11},{'TBidiDictionary<TKey, TValue>.TInverse'}}{{2284,0},{2340,11},{'TBidiDictionary<TKey, TValue>.TEnumerator'}}{{2343,0},{2423,11},{'TBidiDictionary<TKey, TValue>.TKeyCollection'}}{{2426,0},{2506,11},{'TBidiDictionary<TKey, TValue>.TValueCollection'}}{{2509,0},{3024,11},{'TSortedDictionary<TKey, TValue>'}}{{3027,0},{3038,11},{'TSortedDictionary<TKey, TValue>.TEnumerator'}}{{3041,0},{3078,11},{'TFoldedDictionary<TKey, TValue>'}}{{3081,0},{3117,11},{'TFoldedBidiDictionary<TKey, TValue>'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.Dictionaries.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=40
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uR2VuZXJpY3MuRGVmYXVsdHMucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Defaults.pas
+CursorX=1
+CursorY=1995
+TopLine=1980
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Defaults.pas
+[ClosedView_YzpccHJvZ3JhbSBmaWxlcyAoeDg2KVxlbWJhcmNhZGVyb1xzdHVkaW9cMjMuMFxzb3VyY2VccnRs
+XGNvbW1vblxTeXN0ZW0uR2VuZXJpY3MuRGVmYXVsdHMucGFz]
+Module=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Defaults.pas
+CursorX=1
+CursorY=1995
+TopLine=1980
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=c:\program files (x86)\embarcadero\studio\23.0\source\rtl\common\System.Generics.Defaults.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=40
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+[ClosedView_eDpcY29tbW9uXFNwcmluZzREXFNvdXJjZVxCYXNlXENvbGxlY3Rpb25zXFNwcmluZy5Db2xsZWN0
+aW9ucy5wYXM=]
+Module=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+CursorX=40
+CursorY=7008
+TopLine=6992
+LeftCol=1
+Elisions={{80,2},{82,13},{'Property Accessors'}}{{101,2},{103,13},{'Property Accessors'}}{{180,2},{198,13},{'Property Accessors'}}{{1870,2},{1872,13},{'Property Accessors'}}{{2067,2},{2069,13},{'Property Accessors'}}{{2136,2},{2145,13},{'Property Accessors'}}{{2642,2},{2646,13},{'Property Accessors'}}{{2914,2},{2919,13},{'Property Accessors'}}{{3007,2},{3009,13},{'Property Accessors'}}{{3061,2},{3063,13},{'Property Accessors'}}{{3103,2},{3110,13},{'Property Accessors'}}{{3300,2},{3306,13},{'Property Accessors'}}{{3513,2},{3515,13},{'Property Accessors'}}{{3559,2},{3561,13},{'Property Accessors'}}{{3586,2},{3588,13},{'Property Accessors'}}{{3601,2},{3604,13},{'Property Accessors'}}{{3652,2},{3655,13},{'Property Accessors'}}{{3774,2},{3778,13},{'Property Accessors'}}{{3899,2},{3903,13},{'Property Accessors'}}{{4027,2},{4031,13},{'Property Accessors'}}{{4190,2},{4193,13},{'Property Accessors'}}{{4315,2},{4317,13},{'Property Accessors'}}{{4352,2},{4356,13},{'Property Accessors'}}{{4381,2},{4386,13},{'Property Accessors'}}{{4490,2},{4492,13},{'Property Accessors'}}{{4522,2},{4524,13},{'Property Accessors'}}{{4549,2},{5236,13},{'Internal factory methods'}}{{5395,2},{5422,13},{'Internal factory methods'}}{{7081,2},{7095,13},{'Nested Types'}}{{7107,0},{7115,11},{'TPair<TKey, TValue>'}}{{7118,0},{11547,11},{'TCollections'}}{{11550,0},{12249,11},{'TEnumerable'}}{{12252,0},{12280,11},{'TLinkedListNode<T>'}}{{12283,0},{12295,11},{'TCollectionHelper'}}{{12298,0},{12326,11},{'AutoInitAttribute'}}{{12329,0},{12343,11},{'TIdentityFunction<T>'}}{{12346,0},{12370,11},{'TOfTypeIterator'}}{{12373,0},{12408,11},{'TOfTypeIterator.TEnumerator'}}
+Bookmarks=
+EditViewName=x:\common\Spring4D\Source\Base\Collections\Spring.Collections.pas
+
